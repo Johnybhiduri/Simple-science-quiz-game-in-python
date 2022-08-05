@@ -94,7 +94,7 @@ if score == 10 :
     print(f"\n\n   Your Score is {score}/10 , Excellent!!")
 elif score > 5 :
     print(f"\n\n   Your Score is {score}/10 , Keep It Up!")
-elif TotalScore < 5 :
+elif score < 5 :
     print(f'\n\n   Your Score is {score}/10 , Need More Practice!')
 
 
